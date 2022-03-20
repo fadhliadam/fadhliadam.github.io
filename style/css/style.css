@@ -1,0 +1,22 @@
+@font-face {
+    font-family: valorant;
+    src: url('../fonts/Valorant-Font.ttf');
+}
+.nav-link {
+    color: white !important;
+    font-family: 'Signika Negative', sans-serif;
+}
+.nav-link:hover, .active{
+    color: black !important;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFC107;
+}
+.fa:hover {
+    opacity: 0.7;
+}
