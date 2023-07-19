@@ -20375,7 +20375,7 @@ ul.about-info li {
 }
 
 ul.about-info li span {
-  width: calc(100% - 130px);
+  width: calc(100% - 100px);
 }
 
 ul.about-info li span:first-child {
@@ -20384,6 +20384,15 @@ ul.about-info li span:first-child {
   width: 100px;
 }
 
+@media (max-width: 330px) {
+  ul.about-info li {
+    flex-wrap: wrap;
+  }
+  ul.about-info li span {
+    display: inline-block;
+    width: auto;
+  }
+}
 .skill-item {
   margin-top: 0.5rem;
   margin-right: 0.5rem;

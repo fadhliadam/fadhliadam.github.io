@@ -100,12 +100,22 @@ ul.about-info li {
   margin-bottom: 10px;
 }
 ul.about-info li span {
-  width: calc(100% - 130px);
+  width: calc(100% - 100px);
 }
 ul.about-info li span:first-child {
   font-weight: 600;
   color: #000000;
   width: 100px;
+}
+
+@media (max-width: 330px) {
+  ul.about-info li {
+    flex-wrap: wrap;
+  }
+  ul.about-info li span {
+    display: inline-block;
+    width: auto;
+  }
 }
 
 .skill-item {
