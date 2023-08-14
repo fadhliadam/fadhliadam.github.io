@@ -40,24 +40,3 @@ anime
     },
     "-=100"
   );
-
-// var path = document.querySelector(".line-path");
-// var length = path.getTotalLength();
-
-// anime
-//   .timeline({ loop: true })
-//   .add({
-//     targets: ".line-string path",
-//     strokeDashoffset: [anime.setDashoffset, 0],
-//     easing: "easeInOutSine",
-//     duration: 1500,
-//   })
-//   .add(
-//     {
-//       targets: ".line-string path",
-//       strokeDashoffset: [anime.setDashoffset, 0],
-//       easing: "easeInSine",
-//       duration: 1500,
-//     },
-//     "-=1500"
-//   );

@@ -15,7 +15,7 @@ $spacers-5: map-get($spacers, 5);
 }
 
 .jumbotron {
-  background-color: #3d5af1;
+  background-image: linear-gradient(to bottom right, #2947d9, #e4e7f5);
   height: 100vh;
   width: 100%;
   top: 0;
@@ -77,6 +77,18 @@ $spacers-5: map-get($spacers, 5);
 .btn-primary:hover {
   background-color: #4f69f0;
   color: #ffffff;
+}
+
+.img-jumbotron {
+  z-index: 0;
+  width: auto;
+  height: 450px;
+}
+
+@media (max-width: 992px) {
+  .img-jumbotron {
+    height: 350px;
+  }
 }
 
 .about-intro {
@@ -187,8 +199,8 @@ ul.about-info li span:first-child {
   height: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #3d5af1;
-  border: 3px outset #000000;
+  background-color: #ededed;
+  border: 2px outset #000000;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
